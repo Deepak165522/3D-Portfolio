@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive 3D Portfolio</title>
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="active">
+                <i class='bx bx-home-alt'></i>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <i class='bx bx-user'></i>
+                <span class="tooltip">About</span>
+            </li>
+            <li>
+                <i class='bx bx-detail'></i>
+                <span class="tooltip">Resume</span>
+            </li>
+            <li>
+                <i class='bx bx-briefcase'></i>
+                <span class="tooltip">Portfolio</span>
+            </li>
+            <li>
+                <i class='bx bx-envelope'></i>
+                <span class="tooltip">Contact</span>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="box">
+
+            <!-- HOME SECTION -->
+            <section class="section home active">
+                <div class="home-info">
+                    <h3>Hello, I'm</h3>
+                    <h1>Deepak Kumar</h1>
+                    <h3>Full-Stack Developer (Frontend • Backend), DSA & AI/ML</h3>
+
+                    <p class="desc">
+                        I am a Full-Stack Developer skilled in React.js, Tailwind CSS, Node.js, Express.js, 
+                        MongoDB, REST APIs, and JSON APIs. I have strong foundations in Data Structures 
+                        and Algorithms (C++), along with hands-on experience in AI/ML, including 
+                        Deep Learning and Computer Vision.
+                    </p>
+
+                    <div class="btn-sci">
+                        <a href="#" class="btn">Download CV</a>
+
+                        <div class="sci">
+                            <a href="#">
+                                <i class='bx bxl-github'></i>
+                                <span class='tooltip'>Github</span>
+                            </a>
+                            <a href="#">
+                                <i class='bx bxl-linkedin'></i>
+                                <span class='tooltip'>LinkedIn</span>
+                            </a>
+                            <a href="#">
+                                <i class='bx bxl-twitter'></i>
+                                <span class='tooltip'>Twitter</span>
+                            </a>
+                            <a href="#">
+                                <i class='bx bxl-youtube'></i>
+                                <span class='tooltip'>YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img-wrapper">
+                    <div class="img-box home-img">
+                        <img src="my image.jpg" alt="Deepak Kumar">
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT SECTION -->
+            <section class="section about">
+                <div class="img-wrapper">
+                    <div class="img-box about-img">
+                        <img src="my image.jpg" alt="About Image">
+                    </div>
+                </div>
+
+                <div class="about-info">
+                    <h2 class="title">About Me</h2>
+                    <h3>Full-Stack Developer (Frontend • Backend), DSA & AI/ML</h3>
+
+                    <p class="desc">
+                        I’m a full-stack developer and AI practitioner who loves building smart, scalable, and user-friendly digital products. From developing real-time chat systems and ride-booking platforms to implementing deepfake detection models using CNNs, I enjoy working at the intersection of software engineering and machine learning. I work extensively with JavaScript, React, Node.js, MongoDB, Firebase, and cloud APIs, and I’m always exploring how AI can power meaningful and practical solutions. My goal is to build technology that makes real impact while growing as a versatile engineer.
+                    </p>
+
+                    <a href="#" class="btn">View More</a>
+                </div>
+            </section>
+
+            <!-- RESUME SECTION -->
+            <section class="section resume">
+
+                <h2 class="title">Resume</h2>
+
+                <!-- Resume Tabs -->
+                <div class="tab-box">
+                    <div class="tab-list resume-list active" data-target="experience">
+                        <h3>Experience</h3>
+                    </div>
+
+                    <div class="tab-list resume-list" data-target="skills">
+                        <h3>Skills</h3>
+                    </div>
+
+                    <div class="tab-list resume-list" data-target="education">
+                        <h3>Education</h3>
+                    </div>
+                </div>
+
+                <!-- TAB CONTENT WRAPPER -->
+                <div class="tab-wrapper">
+
+                    <!-- EXPERIENCE TAB -->
+                    <div class="tab-grid resume-box experience active" id="experience">
+
+                        <!-- 2025 -->
+                        <div class="tab-item resume-item">
+                            <h4>2025</h4>
+                            <h4>Backend Developer</h4>
+                            <h4>Uber • Twitter • WhatsApp Clone</h4>
+                            <p>Developing backend systems including authentication, JWT security,
+                            real-time chat, notifications, message status system, Google Maps API,
+                            REST API, JSON API, and scalable database architecture using Node.js,
+                            Express.js, and MongoDB.</p>
+                        </div>
+
+                        <!-- 2024 - 2025 -->
+                        <div class="tab-item resume-item">
+                            <h4>2024 - 2025</h4>
+                            <h4>DSA in C++</h4>
+                            <h4>Problem Solving</h4>
+                            <p>Practiced DSA in C++ focusing on problem solving, time complexity,
+                            competitive programming and logic building.</p>
+                        </div>
+
+                        <!-- 2024 -->
+                        <div class="tab-item resume-item">
+                            <h4>2024</h4>
+                            <h4>Frontend Developer</h4>
+                            <h4>GoAgro • Cravix Game • Portfolio</h4>
+                            <p>Built responsive UI using React.js, Tailwind CSS, animations,
+                            components and modern frontend architecture.</p>
+                        </div>
+
+                        <!-- 2023 -->
+                        <div class="tab-item resume-item">
+                            <h4>2023 - 2024</h4>
+                            <h4>AI / ML</h4>
+                            <h4>DeepFake Detection Project</h4>
+                            <p>Developed CNN-based AI/ML model to classify real vs fake images/videos
+                            using deep learning, preprocessing and feature analysis.</p>
+                        </div>
+
+                        <!-- 2023 - 2024 -->
+                        <div class="tab-item resume-item">
+                            <h4>2023 - 2024</h4>
+                            <h4>Research Project</h4>
+                            <h4>Influence of Social Media</h4>
+                            <p>Researched psychological & behavioral impact of social media on users,
+                            analyzing engagement, mental health, and digital well-being.</p>
+                        </div>
+
+                        <!-- 2023 - 2024 -->
+                        <div class="tab-item resume-item">
+                            <h4>2023 - 2024</h4>
+                            <h4>Research Project</h4>
+                            <h4>Heart Rate Variability (HRV) using PPG</h4>
+                            <p>Performed HRV analysis using PPG signals for cardiovascular health
+                            assessment using AI-powered non-invasive methods.</p>
+                        </div>
+
+                    </div>
+
+                    <!-- SKILLS TAB -->
+                    <div class="tab-grid resume-box skills" id="skills">
+
+                        <!-- Programming -->
+                        <div class="tab-item resume-item"><i class='bx bxl-python'></i><p>Python</p></div>
+                        <div class="tab-item resume-item"><i class="ri-javascript-fill"></i><p>JavaScript</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-code-alt'></i><p>C++</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-code-alt'></i><p>C</p></div>
+                        <div class="tab-item resume-item"><i class="ri-java-fill"></i><p>Java</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-data'></i><p>SQL</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-data'></i><p>NoSQL</p></div>
+
+                        <!-- Frontend -->
+                        <div class="tab-item resume-item"><i class='bx bxl-html5'></i><p>HTML</p></div>
+                        <div class="tab-item resume-item"><i class='bx bxl-css3'></i><p>CSS</p></div>
+                        <div class="tab-item resume-item"><i class='bx bxl-javascript'></i><p>JavaScript (Frontend)</p></div>
+                        <div class="tab-item resume-item"><i class='bx bxl-react'></i><p>React.js</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-layout'></i><p>Tailwind CSS</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-mobile-alt'></i><p>Responsive UI</p></div>
+
+                        <!-- Backend -->
+                        <div class="tab-item resume-item"><i class='bx bxl-nodejs'></i><p>Node.js</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-server'></i><p>Express.js</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-key'></i><p>JWT Auth</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-link-external'></i><p>REST APIs</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-shield-quarter'></i><p>API Security</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-cog'></i><p>Middleware</p></div>
+
+                        <!-- DB -->
+                        <div class="tab-item resume-item"><i class='bx bxl-mongodb'></i><p>MongoDB</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-data'></i><p>Mongoose</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-cloud-upload'></i><p>Cloudinary</p></div>
+
+                        <!-- AI -->
+                        <div class="tab-item resume-item"><i class='bx bx-brain'></i><p>Deep Learning</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-bot'></i><p>AI / ML</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-show'></i><p>Computer Vision</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-image'></i><p>Image/Video Processing</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-brain'></i><p>Neural Networks</p></div>
+
+                        <!-- CS -->
+                        <div class="tab-item resume-item"><i class='bx bx-git-branch'></i><p>DSA</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-chip'></i><p>Operating Systems</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-network-chart'></i><p>Networking</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-extension'></i><p>OOPs</p></div>
+
+                        <!-- Cloud Tools -->
+                        <div class="tab-item resume-item"><i class='bx bx-cloud'></i><p>Google Cloud</p></div>
+                        <div class="tab-item resume-item"><i class='bx bxl-firebase'></i><p>Firebase</p></div>
+                        <div class="tab-item resume-item"><i class='bx bxl-git'></i><p>Git / GitHub</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-rocket'></i><p>Deployment</p></div>
+                        <div class="tab-item resume-item"><i class='bx bx-test-tube'></i><p>Postman</p></div>
+
+                    </div>
+
+                    <!-- EDUCATION TAB -->
+                    <div class="tab-grid resume-box education" id="education">
+                        <div class="tab-item resume-item">
+                            <h4>2022 - 2026</h4>
+                            <h4>B.Tech CSE</h4>
+                            <h4>Bennett University</h4>
+                            <p>CGPA: 8.64</p>
+
+           
+                        </div>
+
+                        <div class="tab-item resume-item">
+                            <h4>2021</h4>
+                            <h4>Class 12 (CBSE)</h4>
+                            <h4>B.D. Public School</h4>
+                            <p>CGPA: 7.1</p>
+                        </div>
+
+                        <div class="tab-item resume-item">
+                            <h4>2019</h4>
+                            <h4>Class 10 (CBSE)</h4>
+                            <h4>Acharya Shri Sudarshan Patna Central School</h4>
+                            <p>CGPA: 8.40</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="section portfolio">
+
+    <h2 class="title">Portfolio</h2>
+
+    <div class="tab-box">
+        <!-- Add portfolio items here -->
+        <div class="tab-list portfolio-list active">
+            <h3>My Work</h3>
+            
+        
+        </div>
+        <div class="tab-list portfolio-list">
+            <h3>My Service</h3>
+            
+        
+        </div>
+    </div>
+
+    <div class="tab-wrapper">
+
+   <!-- WORK BOX -->
+<div class="tab-grid portfolio-box work active">
+<!-- UBER CLONE -->
+<div class="tab-item portfolio-item">
+    <div class="work-img">
+        <img src="\uber.png" alt="Uber Clone Project">
+    </div>
+    <div class="work-info">
+        <h3>Uber Clone</h3>
+        <p>Ride-booking clone with real-time location tracking, routing, authentication, 
+           booking management, and backend API integration.</p>
+
+        <div class="tech-used">
+            <p>React.js • Node.js • Express • MongoDB • Google Maps API</p>
+        </div>
+
+        <div class="portfolio-icon work-icon">
+            <a href="#"><i class="bx bx-link-alt"></i><span class="tooltip">Preview</span></a>
+            <a href="#"><i class="bx bxl-github"></i><span class="tooltip">Github Repository</span></a>
+        </div>
+    </div>
+</div>
+
+<!-- TWITTER CLONE -->
+<div class="tab-item portfolio-item">
+    <div class="work-img">
+        <img src="\twitter.png" alt="Twitter Clone Project">
+    </div>
+    <div class="work-info">
+        <h3>Twitter Clone</h3>
+        <p>Social media clone with posting, likes, retweets, authentication, realtime feed 
+           updates & user profiles.</p>
+
+        <div class="tech-used">
+            <p>React.js • Tailwind CSS • Node.js • MongoDB</p>
+        </div>
+
+        <div class="portfolio-icon work-icon">
+            <a href="#"><i class="bx bx-link-alt"></i><span class="tooltip">Preview</span></a>
+            <a href="#"><i class="bx bxl-github"></i><span class="tooltip">Github Repository</span></a>
+        </div>
+    </div>
+</div>
+
+<!-- WHATSAPP CLONE -->
+<div class="tab-item portfolio-item">
+    <div class="work-img">
+        <img src="\whatsapp.png" alt="WhatsApp Clone Project">
+    </div>
+    <div class="work-info">
+        <h3>WhatsApp Clone</h3>
+        <p>Real-time messaging clone with typing indicators, message status (sent/seen),
+           online/offline presence, and encrypted chat structure.</p>
+
+        <div class="tech-used">
+            <p>React.js • Socket.io • Node.js • Express • MongoDB</p>
+        </div>
+
+        <div class="portfolio-icon work-icon">
+            <a href="#"><i class="bx bx-link-alt"></i><span class="tooltip">Preview</span></a>
+            <a href="#"><i class="bx bxl-github"></i><span class="tooltip">Github Repository</span></a>
+        </div>
+    </div>
+</div>
+
+
+    <!-- 2. GOAGRO PLATFORM -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="\goagro.png" alt="GoAgro Project">
+        </div>
+
+        <div class="work-info">
+            <h3>GoAgro Agriculture Platform</h3>
+            <p>Developed a modern agriculture platform with responsive UI, product listings,
+               filters, secure API integration, and optimized user flow.</p>
+
+            <div class="tech-used">
+                <p>React.js • Tailwind CSS • Node.js • Express • MongoDB</p>
+            </div>
+
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class="bx bx-link-alt"></i><span class="tooltip">Preview</span></a>
+                <a href="#"><i class="bx bxl-github"></i><span class="tooltip">Github Repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. CRAVIX GAME -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="\cravix-game.png" alt="Cravix Game">
+        </div>
+
+        <div class="work-info">
+            <h3>Cravix Game</h3>
+            <p>Interactive game with animations, keyboard control, scoring system,
+               collision detection, and optimized gameplay logic.</p>
+
+            <div class="tech-used">
+                <p>JavaScript • Canvas API • CSS Animations</p>
+            </div>
+
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class="bx bx-link-alt"></i><span class="tooltip">Preview</span></a>
+                <a href="#"><i class="bx bxl-github"></i><span class="tooltip">Github Repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. PERSONAL PORTFOLIO WEBSITE -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="\portfolio.png" alt="Portfolio Website">
+        </div>
+
+        <div class="work-info">
+            <h3>3D Personal Portfolio</h3>
+            <p>A 3D rotating modern portfolio website with animations, responsive UI,
+               and custom design for multi-section transitions.</p>
+
+            <div class="tech-used">
+                <p>HTML • CSS • JavaScript</p>
+            </div>
+
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class="bx bx-link-alt"></i><span class="tooltip">Preview</span></a>
+                <a href="#"><i class="bx bxl-github"></i><span class="tooltip">Github Repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. DEEPFAKE DETECTION (AI/ML) -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="\deepfake.png" alt="DeepFake Detection">
+        </div>
+
+        <div class="work-info">
+            <h3>DeepFake Detection (AI/ML)</h3>
+            <p>Implemented CNN model for detecting real vs manipulated images and videos using
+               preprocessing, frame extraction, and deep learning.</p>
+
+            <div class="tech-used">
+                <p>Python • TensorFlow • OpenCV • CNN</p>
+            </div>
+
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class="bx bx-link-alt"></i><span class="tooltip">Preview</span></a>
+                <a href="#"><i class="bx bxl-github"></i><span class="tooltip">Github Repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 6. HRV ANALYSIS USING PPG -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="hrv.png" alt="HRV PPG Project">
+        </div>
+
+        <div class="work-info">
+            <h3>Heart Rate Variability (PPG Analysis)</h3>
+            <p>Analyzed PPG signals for HRV extraction and cardiovascular health assessment using
+               AI-driven biomedical processing.</p>
+
+            <div class="tech-used">
+                <p>Python • Signal Processing • NumPy • SciPy</p>
+            </div>
+
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class="bx bx-link-alt"></i><span class="tooltip">Preview</span></a>
+                <a href="#"><i class="bx bxl-github"></i><span class="tooltip">Github Repository</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7. SOCIAL MEDIA INFLUENCE RESEARCH -->
+    <div class="tab-item portfolio-item">
+        <div class="work-img">
+            <img src="\media.png" alt="Social Media Study">
+        </div>
+
+        <div class="work-info">
+            <h3>Influence of Social Media (Research)</h3>
+            <p>Studied psychological & behavioral patterns of social media users,
+               analyzing impact on digital well-being and mental health.</p>
+
+            <div class="tech-used">
+                <p>Research • Data Analysis • Report Writing</p>
+            </div>
+
+            <div class="portfolio-icon work-icon">
+                <a href="#"><i class="bx bx-link-alt"></i><span class="tooltip">Preview</span></a>
+                <a href="#"><i class="bx bxl-github"></i><span class="tooltip">Github Repository</span></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+   
+
+    <!-- SERVICE BOX -->
+<div class="tab-grid portfolio-box service">
+
+    <!-- Full-Stack Development -->
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-code-alt icon'></i>
+            <a href="#"><i class='bx bx-arrow-back'></i></a>
+        </div>
+        <h4>Full-Stack Development</h4>
+        <p>Building complete web apps with frontend, backend APIs, authentication, 
+           real-time features, and database systems.</p>
+    </div>
+
+    <!-- AI / ML -->
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bxs-brain icon'></i>
+            <a href="#"><i class='bx bx-arrow-back'></i></a>
+        </div>
+        <h4>AI / ML</h4>
+        <p>Developing machine learning & deep learning models including CNN-based 
+           image analysis, automation, and prediction systems.</p>
+    </div>
+
+    <!-- Deep Learning / Computer Vision -->
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-chip icon'></i>
+            <a href="#"><i class='bx bx-arrow-back'></i></a>
+        </div>
+        <h4>Deep Learning</h4>
+        <p>Implementing neural network models for classification, detection, and 
+           DeepFake identification using advanced frameworks.</p>
+    </div>
+
+    <!-- DSA (C++) -->
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-code-curly icon'></i>
+            <a href="#"><i class='bx bx-arrow-back'></i></a>
+        </div>
+        <h4>DSA (C++)</h4>
+        <p>Writing optimized C++ solutions with strong knowledge of algorithms, data 
+           structures, and problem-solving patterns.</p>
+    </div>
+
+     <!-- Video Editing -->
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-movie-play icon'></i>
+            <a href="#"><i class='bx bx-arrow-back'></i></a>
+        </div>
+        <h4>Video Editing</h4>
+        <p>Editing cinematic videos with smooth transitions, effects, color grading, 
+           and storytelling-focused compositions.</p>
+    </div>
+
+      <!-- Photography -->
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-camera icon'></i>
+            <a href="#"><i class='bx bx-arrow-back'></i></a>
+        </div>
+        <h4>Photography</h4>
+        <p>Capturing high-quality photos with aesthetic composition, lighting control,
+           and creative framing.</p>
+    </div>
+
+    <!-- DBMS -->
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-data icon'></i>
+            <a href="#"><i class='bx bx-arrow-back'></i></a>
+        </div>
+        <h4>DBMS</h4>
+        <p>Designing and managing databases with SQL/NoSQL, schema optimization, 
+           queries, and efficient data handling.</p>
+    </div>
+
+     <!-- Graphic Design -->
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-palette icon' ></i>
+            <a href="#"><i class='bx bx-arrow-back'></i></a>
+        </div>
+        <h4>Graphic Design</h4>
+        <p>Designing posters, thumbnails, banners, and brand graphics with modern 
+           typography and visual creativity.</p>
+    </div>
+
+     <!-- UI/UX Design -->
+    <div class="tab-item portfolio-item">
+        <div class="portfolio-icon service-icon">
+            <i class='bx bx-layout icon'></i>
+            <a href="#"><i class='bx bx-arrow-back'></i></a>
+        </div>
+        <h4>UI / UX Design</h4>
+        <p>Creating user-friendly designs with clean layouts, components, wireframes, 
+           and interaction-based user experience.</p>
+    </div>
+
+</div>
+
+</div>
+
+
+</section>
+
+
+
+<section class="section contact active">
+    <h2 class="title">Contact</h2>
+
+    <div class="contact-wrapper">
+        <form action="#" class="contact-form">
+
+            <h3>Let's Work Together!</h3>
+
+            <div class="field-box">
+                <input name="text" placeholder="Full Name" required>
+
+                <input  type="email" placeholder="Email Address" required>
+
+                <input type="text" placeholder="Phone Number" required>
+
+                <input type="text" placeholder="Email Subject" required>
+
+                <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+            </div>
+
+            <div class="contact-btn">
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+
+        </form>
+    </div>
+
+</section>
+
+
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
